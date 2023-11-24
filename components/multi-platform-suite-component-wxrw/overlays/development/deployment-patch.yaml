@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: multi-platform-suite-component-wxrw
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/multi-platform-build-tenant/multi-platform-suite-application-juak/multi-platform-suite-component-wxrw@sha256:edfad9b8c80eb72047be64676359c0659886e0120d0e0e55c3d2aeae854ab862
+        name: my-go
+        resources: {}
+status: {}
